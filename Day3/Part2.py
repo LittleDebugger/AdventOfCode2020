@@ -3,7 +3,6 @@
 #from collections import defaultdict as dd
 import re # regex
 
-
 tt = 1
 
 for xx, yy in [[1,1], [3,1], [5,1], [7, 1], [1, 2]]:
