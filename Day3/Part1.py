@@ -5,14 +5,10 @@ x = 0
 t = 0
 
 while y < len(file):
+    if file[y][x % len(file[y])] == '#':
+        t += 1
     x += 3
     y += 1
-    try:
-        if file[y][x % len(file[y])] == '#':
-            t += 1
-    except:
-        pass
-
 print(t)
 
 
