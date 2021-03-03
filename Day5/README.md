@@ -1,10 +1,10 @@
 # AdventOfCode2020 - Day 5
 
-Part 1
+Part 1  
 Time: 00:10:58   
 Rank: 1477
 
-Part 2
+Part 2  
 Time: 00:13:36   
 Rank: 1066
 
