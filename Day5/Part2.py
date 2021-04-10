@@ -44,5 +44,3 @@ for l in file:
 for a in range(0, 900):
     if a not in seats:
         print(a)
-
-

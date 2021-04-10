@@ -27,8 +27,7 @@ while i < 100:
         for x in range(1, width - 1):
             if grid[y][x] == '#':
                 t += 1
-    print (t)
-
+    print(t)
 
     def isTaken(xl, yl, xx, yy):
         while True:
@@ -39,7 +38,6 @@ while i < 100:
             if grid[yl][xl] == '.':
                 continue
             return 1 if grid[yl][xl] == '#' else 0
-
 
     for y in range(1, len(grid) - 1):
         for x in range(1, width - 1):

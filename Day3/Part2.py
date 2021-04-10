@@ -1,11 +1,8 @@
-#from collections import Counter
-#from collections import namedtuple as nt
-#from collections import defaultdict as dd
-import re # regex
+import re
 
 tt = 1
 
-for xx, yy in [[1,1], [3,1], [5,1], [7, 1], [1, 2]]:
+for xx, yy in [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]:
     file = [l.strip() for l in open("c:\\aoc\\2020\\Day3.txt")]
     y = 0
     x = 0
@@ -22,7 +19,4 @@ for xx, yy in [[1,1], [3,1], [5,1], [7, 1], [1, 2]]:
     print(t)
     tt = tt * t
 
-print (tt)
-
-
-
+print(tt)

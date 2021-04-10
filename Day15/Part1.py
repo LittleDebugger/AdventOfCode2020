@@ -7,7 +7,7 @@ while len(spoken) < 2020:
     next = 0
     for ii in range(len(spoken) - 2, -1, -1):
         if spoken[ii] == spoken[-1]:
-            next = len(spoken) - ii -1
+            next = len(spoken) - ii - 1
             break
 
     spoken.append(next)

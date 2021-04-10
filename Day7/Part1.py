@@ -7,7 +7,7 @@ outerInner = dd(lambda: dd(list))
 
 for s in file:
     ss = s.split(' ')
-    carrier = ss[0] + ' '+ ss[1]
+    carrier = ss[0] + ' ' + ss[1]
     ss = ' '.join(ss[4:])
     ss = ss[:-1]
     ss = ss.split(', ')

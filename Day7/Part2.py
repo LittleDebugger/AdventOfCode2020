@@ -3,11 +3,11 @@ from collections import defaultdict as dd
 file = [l.strip() for l in open("c:\\aoc\\2020\\Day7.txt")]
 
 innerOuter = dd(list)
-outerInner = dd(lambda: dd(lambda:0))
+outerInner = dd(lambda: dd(lambda: 0))
 
 for s in file:
     ss = s.split(' ')
-    carrier = ss[0] + ' '+ ss[1]
+    carrier = ss[0] + ' ' + ss[1]
     ss = ' '.join(ss[4:])
     ss = ss[:-1]
     ss = ss.split(', ')

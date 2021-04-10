@@ -1,5 +1,10 @@
 # AdventOfCode2020 - Day 2
 
-Rank
-Part 1: 150
-Part 2: 387
+Part 1  
+Time: 00:02:53   
+Rank: 150
+
+Part 2  
+Time: 00:06:43   
+Rank: 387
+

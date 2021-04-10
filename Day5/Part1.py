@@ -36,6 +36,4 @@ for l in file:
     if id > mm:
         mm = id
     print(row, col, id)
-print (mm)
-
-
+print(mm)

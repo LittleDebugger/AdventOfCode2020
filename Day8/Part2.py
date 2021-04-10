@@ -36,4 +36,3 @@ for xx in range(0, len(file)):
             break
         visited.append(x)
         oldX = x
-

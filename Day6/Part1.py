@@ -9,7 +9,7 @@ counts = dd(lambda: 0)
 for l in file:
     if not l:
         t += len(counts)
-        counts =  dd(lambda:0)
+        counts = dd(lambda: 0)
     else:
         for c in l:
             counts[c] = counts[c] + 1

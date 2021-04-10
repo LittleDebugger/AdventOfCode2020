@@ -14,6 +14,3 @@ while y < len(file):
         pass
 
 print(t)
-
-
-
